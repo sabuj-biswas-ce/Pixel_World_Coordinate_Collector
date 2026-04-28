@@ -1,3 +1,14 @@
+# Pixel-World Coordinate Collector
+# A tool to collect Ground Control Points (GCPs) by clicking on images and entering their real-world coordinates. Supports multiple images, zoom/pan, and CSV export.
+# Author: Sabuj Biswas (with assistance from ChatGPT)
+# Usage:
+# 1. Run the script to open the GUI.
+# 2. Use "Load Image" or "Load Multiple Images" to select your images.
+# 3. Click on the image to add GCPs. A dialog will prompt for world coordinates (X, Y in meters).
+# 4. Right-click near a point to delete it.
+# 5. Use the table on the right to view all points from all images, select points, or delete the selected point.
+# 6. Use the "Save Points to CSV" button to export all collected points to a CSV file. The CSV will include the image path, pixel coordinates, and world coordinates for each point.
+
 import csv
 import os
 import tkinter as tk
