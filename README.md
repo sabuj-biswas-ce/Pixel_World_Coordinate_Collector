@@ -127,7 +127,7 @@ Built using:
 * OpenCV for image processing
 * Tkinter for GUI
 * NumPy for numerical operations
-* Developed with assistance from ChatGPT 
+* GUI Developed with assistance from Al Tool (ChatGPT) 
 
 ---
 
